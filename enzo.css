@@ -1,0 +1,102 @@
+/* Style pour l'image de profil */
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    display: block;
+    margin: 0 auto;
+    border-color: #ffffff;
+}
+
+body {
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.container {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.header-title {
+    font-size: 2.5em;
+
+}
+
+#Intitule {
+    font-size: 1.2em;
+}
+
+h2 {
+
+    margin-bottom: 10px;
+}
+
+p, ul {
+    font-size: 1em;
+    color: #555;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+a {
+    color: #0073b1;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#general {
+    background-color: white;
+    padding: 20px;
+}
+
+.flex-wrap {
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.title-h3 {
+    margin: 0px;
+}
+
+.square {
+    /* margin: 24px 12px 0px 12px; */
+    /* padding: 24px 12px 0px 12px; */
+    /* width: 200px; */
+    /* height: 200px; */
+    max-width: 250px;
+    padding:12px;
+    background-color: lightgray;
+    border-color: #222222;
+    border-radius: 25px;
+}
+
+.square-spacing {
+    margin-right: 24px;
+    margin-bottom: 12px;
+}

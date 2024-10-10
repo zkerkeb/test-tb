@@ -1,0 +1,123 @@
+#general {
+    background-color: red;
+}
+
+
+
+
+body {
+    background-color: blue;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px; /* Pour éviter que le contenu ne colle aux bords sur les petits écrans */
+}
+
+
+.header {
+    background-color: #222222;
+    padding: 24px;
+    border-radius: 12px;
+   display: flex;
+   flex-direction: column;
+   /* justify-content: center; */
+   align-items: center;
+}
+
+.header-title {
+    color: white;
+}
+
+.header-paragraph {
+    color: white;
+}
+
+.title {
+    font-size: 30px;
+}
+
+.flex-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+.square {
+    margin: 24px 12px 0px 12px;
+    padding: 24px 12px 0px 12px;
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    border-color: #222222;
+}
+
+.red {
+    /* background-color: red; */
+    color:red;
+    font-size: 24px;
+    text-align: center;
+}
+
+.green {
+    background-color: green;
+}
+
+.blue {
+    background-color: aliceblue;
+}
+
+.text-light {
+    color: white;
+}
+
+.text-dark {
+    color: black;
+}
+
+.avatar {
+    width: 400px;
+    height: 400px;
+    border-radius: 100px;
+}
+
+@media (max-width: 767px) {
+    /* Styles pour mobile */
+    body{
+        background-color: aquamarine;
+    }
+    .flex-wrap {
+        display: none;
+         
+    }
+    .avatar {
+        width: 100%;
+        max-width: 200px;
+        height: auto;
+    }
+  }
+  
+  /* Tablette */
+  @media (min-width: 768px) and (max-width: 1023px) {
+    /* Styles pour tablette */
+  }
+  
+  /* Desktop */
+  @media (min-width: 1024px) {
+    /* Styles pour desktop */
+    .container {
+        max-width: 1000px;
+    }
+  }
+
+
+@media (max-width: 400px) {
+    .container {
+        max-width: 1000px;
+    }
+}
